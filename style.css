@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/14/12/27/pink-1328819_960_720.jpg");
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.productContainer {
+  background-color: #ecf2ff;
+  height: auto;
+  width: 700px;
+  margin: 20px;
+  padding: 20px 0;
+}
+#myPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.productContainer h3 {
+  color: #ea8fea;
+  font-family: "Poppins", sans-serif;
+}
+.productContainer h4 {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #e13fe1;
+}
+.productContainer p {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 200px;
+  height: auto;
+}
